@@ -24,8 +24,8 @@ int main(int argc, char **argv, char **env)
     top->clk = 1;
     top->rst = 0;
     top->en = 1;
-    top->incr = 10;
-    top->offset = 1;
+    top->incr = 5;
+    top->offset = 64;
 
     for (i = 0; i < 1000000; i++)
     {
